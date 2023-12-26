@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" targetNamespace="http://soa.com">
+	<xs:element name="SumaRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="numero" type="xs:double" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SumaResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="suma" type="xs:double"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
